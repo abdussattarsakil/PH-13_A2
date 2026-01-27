@@ -294,8 +294,8 @@ header .banner {
 /* brand-details end */
 
 #features {
-    max-width: 1600px;
-   background: rgba(26, 11, 46, 1);
+    background: rgba(26, 11, 46, 1);
+    padding-bottom: 120px;
 }
 
 #features>h1 {
@@ -310,8 +310,11 @@ header .banner {
 #features-card-container {
     max-width: 1200px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 .features-card {
@@ -353,3 +356,52 @@ header .banner {
     height: 20px;
     padding-top: 14px;
 }
+
+/* featured episodes style end */
+
+#host-section>h1 {
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+#host-container {
+    display: flex;
+    background: rgba(53, 17, 101, 0.4);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+#host-text {
+    margin: auto 24px;
+}
+
+#host-text>h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
+
+#host-text>p {
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.5;
+    margin-bottom: 16px;
+}
+
+.host-images{
+    border: 1px solid rgba(83, 60, 114, 1);
+    border-radius: 100px;
+    padding: 10px;
+    margin-right: 8px;
+}
+
+/* navbar  */
