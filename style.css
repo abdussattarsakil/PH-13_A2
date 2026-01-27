@@ -57,9 +57,9 @@ header>nav>ul>li>a {
     color: rgba(255, 255, 255, 1);
 }
 
-hr {
+header>hr {
     border: none;
-    background-color: rgba(17, 1, 21, 0.862);
+    background-color: rgba(30, 29, 31, 0.862);
     height: 1px;
 }
 
@@ -106,7 +106,6 @@ header .banner {
 #banner-text {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     align-items: center;
     margin: 0 auto;
     width: 34.3rem;
@@ -155,3 +154,66 @@ header .banner {
     align-items: center;
     text-align: center;
 }
+
+/* banner-style end */
+
+/* about-section */
+#about-section {
+    background-color: #1A0B2E;
+    height: 646px;
+    padding-top: 50px;
+}
+
+#about-section-content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#about-section-content>h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+#about-section-content>p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.6;
+    text-align: center;
+}
+
+#about-section-content>hr {
+    border: none;
+    background-color: rgba(54, 52, 56, 0.862);
+    height: 1px;
+    margin-top: 80px;
+}
+
+#small-card {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+}
+
+#small-card>div>h1 {
+    color: rgba(0, 255, 136, 1);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    padding-bottom: 8px;
+}
+
+#small-card>div>p {
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.8;
+    font-weight: 400;
+    line-height: 20px;
+}
+/* about section end */
+
