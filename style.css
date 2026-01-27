@@ -164,7 +164,7 @@ header .banner {
     padding-top: 50px;
 }
 
-#about-section-content{
+#about-section-content {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -215,5 +215,80 @@ header .banner {
     font-weight: 400;
     line-height: 20px;
 }
+
 /* about section end */
 
+/* brand-details */
+#brand-details-container {
+    background-color: rgba(35, 14, 61, 1);
+}
+
+#brand-details-container>h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 120px;
+}
+
+.brand-details-card-1 {
+    grid-area: audio;
+    
+}
+
+.brand-details-card-2 {
+    grid-area: mobile;
+}
+
+.brand-details-card-3 {
+    grid-area: global;
+}
+
+.brand-details-card-4 {
+    grid-area: exclusive;
+}
+
+.brand-details-card-5 {
+    grid-area: rich;
+}
+
+
+.brand-details {
+    display: grid;
+    gap: 30px;
+    grid-template-areas:
+        "audio        mobile      mobile"
+        "audio        global      global"
+        "exclusive    exclusive   rich"
+    ;
+    max-width: 1200px;
+    margin:2.5rem 12.5rem 0 12.5rem;
+    padding-bottom: 7.5rem;
+}
+
+.brand-card{
+    border: none;
+    border-radius: 40px;
+    background-color:  rgba(53, 17, 101, 0.4);
+    padding: 40px;
+}
+
+.brand-card>h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.brand-card>p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.6;
+}
+
+/* brand-details end */
