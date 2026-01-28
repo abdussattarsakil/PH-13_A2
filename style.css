@@ -468,6 +468,18 @@ footer {
 }
 
 
+.rotate-360 {
+  animation: rotate360 7s linear infinite;
+}
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 /* responsibe-design */
 @media screen and (max-width:576px) {
