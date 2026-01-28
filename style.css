@@ -57,6 +57,10 @@ header>nav>ul>li>a {
     color: rgba(255, 255, 255, 1);
 }
 
+#hamburger-menu {
+    display: none;
+}
+
 header>hr {
     border: none;
     background-color: rgba(30, 29, 31, 0.862);
@@ -432,7 +436,7 @@ footer {
     margin: 34.5px 0 34.5px 0;
 }
 
-.footer-text{
+.footer-text {
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
@@ -440,15 +444,35 @@ footer {
     opacity: 0.5;
 }
 
-.footer-logo{
+.footer-logo {
     display: flex;
 }
 
-.copyright{
+.copyright {
     font-weight: 300;
     opacity: 0.4;
 }
 
-.footer-logo>img{
+.footer-logo>img {
     margin-right: 8px;
+}
+
+
+/* responsibe-design */
+@media screen and (max-width:576px) {
+    header>nav>ul>li {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    #hamburger-menu {
+        display: block;
+    }
+
+
+
+
 }
