@@ -164,7 +164,7 @@ header .banner {
 /* about-section */
 #about-section {
     background-color: #1A0B2E;
-    height: 646px;
+    /* height: 646px; */
     padding-top: 50px;
 }
 
@@ -174,7 +174,7 @@ header .banner {
 }
 
 #about-section-content>h1 {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 58px;
     color: rgba(255, 255, 255, 1);
@@ -314,11 +314,12 @@ header .banner {
 #features-card-container {
     max-width: 1200px;
     margin: 0 auto;
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr); */
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* display: flex;
+    flex-wrap: wrap; */
     gap: 8px;
+    margin-bottom: 120px;
 }
 
 .features-card {
@@ -327,7 +328,7 @@ header .banner {
     background: rgba(37, 13, 68, 1);
     border: none;
     border-radius: 24px;
-    margin-bottom: 120px;
+
 }
 
 .features-card-text {
@@ -432,7 +433,7 @@ footer {
 
 .footer-logo-container {
     display: flex;
-    gap: 80px;
+    gap:5rem;
     margin: 34.5px 0 34.5px 0;
 }
 
@@ -458,6 +459,9 @@ footer {
 }
 
 
+
+
+
 /* responsibe-design */
 @media screen and (max-width:576px) {
     header>nav>ul>li {
@@ -472,7 +476,72 @@ footer {
         display: block;
     }
 
+    #banner-content>span {
+        top: 22%;
+        left: 64%;
+    }
 
+    #banner-text {
+        display: inline;
+        text-align: center;
+    }
+
+    #banner-btn {
+        justify-content: space-around;
+    }
+
+    #about-section-content {
+        padding: 25px;
+    }
+
+    #about-section-content>h1 {
+        font-size: 2rem;
+    }
+
+    #small-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 20px 40px 20px;
+    }
+
+    .brand-details {
+        grid-template-areas:
+            "audio"
+            "mobile"
+            "global"
+            "exclusive"
+            "rich";
+        margin: 0 15px;
+    }
+
+    #features-card-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    #features>h1 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    #host-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #footer-brand {
+        font-size: 30px;
+    }
+
+    .footer-logo-container {
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
 
 
 }
