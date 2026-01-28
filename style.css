@@ -199,6 +199,7 @@ header .banner {
 
 #small-card {
     padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     justify-content: center;
     gap: 80px;
@@ -508,10 +509,11 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin: 0 20px 40px 20px;
+        padding-bottom: 5px;
     }
 
     #brand-details-container>h1 {
-        font-size: 30px;
+        font-size: 40px;
         margin-bottom: 16px;
         padding-top: 40px;
     }
