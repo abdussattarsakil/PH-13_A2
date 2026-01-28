@@ -407,6 +407,8 @@ header .banner {
     border-radius: 100px;
     padding: 10px;
     margin-right: 8px;
+    width: 40px;
+    height: 40px;
 }
 
 /* navbar  */
@@ -433,7 +435,7 @@ footer {
 
 .footer-logo-container {
     display: flex;
-    gap:5rem;
+    gap: 5rem;
     margin: 34.5px 0 34.5px 0;
 }
 
@@ -477,13 +479,13 @@ footer {
     }
 
     #banner-content>span {
-        top: 22%;
-        left: 64%;
+        top: 23%;
+        left: 60%;
     }
 
     #banner-text {
-        display: inline;
         text-align: center;
+        padding: 0 20px;
     }
 
     #banner-btn {
@@ -491,7 +493,7 @@ footer {
     }
 
     #about-section-content {
-        padding: 25px;
+        padding: 30px;
     }
 
     #about-section-content>h1 {
@@ -502,6 +504,12 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin: 0 20px 40px 20px;
+    }
+
+    #brand-details-container>h1 {
+        font-size: 30px;
+        margin-bottom: 16px;
+        padding-top: 40px;
     }
 
     .brand-details {
@@ -540,8 +548,10 @@ footer {
     .footer-logo-container {
         gap: 1rem;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
-
+    .ft-logo-2nd {
+        margin: 0 auto;
+    }
 }
